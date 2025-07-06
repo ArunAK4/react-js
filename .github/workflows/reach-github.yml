@@ -1,6 +1,6 @@
 name: First workflow in React
 on: 
-  push: 
+  pull_request: 
     branches:  
       - main
 jobs: 
